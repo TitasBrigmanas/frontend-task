@@ -1,0 +1,135 @@
+.main-dropdown{
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.documents-dropdown{
+  background: #616d70;
+  color: #ffffff;
+  height: 39px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 1px solid #666;
+}
+
+.documents-dropdown p{
+  display: inline-flex;
+  align-items: center;
+  width: 90%;
+}
+
+.documents-dropdown span{
+  display: inline-flex;
+  align-items: center;
+  width: 10%;
+}
+
+.folder-dropdown{
+  background: #3a4143;
+  color: #ffffff;
+  height: 39px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 1px solid #666;
+}
+
+.folder-dropdown:hover{
+  background: #32383a;
+}
+
+.folder-dropdown p{
+  display: inline-flex;
+  align-items: center;
+  width: 90%;
+}
+
+.folder-dropdown span{
+  display: inline-flex;
+  align-items: center;
+  width: 10%;
+}
+
+.subfolder-dropdown{
+  background: #212627;
+  color: #ffffff;
+  height: 39px;
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 1px solid #666;
+}
+
+.subfolder-dropdown:hover{
+  background: #141718;
+}
+
+.subfolder-dropdown p{
+  display: inline-flex;
+  align-items: center;
+  width: 90%;
+}
+
+.subfolder-dropdown span{
+  display: inline-flex;
+  align-items: center;
+  width: 10%;
+}
+
+.sub-subfolder-dropdown{
+  background: #141718;
+  color: #ffffff;
+  height: 39px;
+  padding-left: 50px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 1px solid #666;
+}
+
+.sub-subfolder-dropdown p{
+  display: inline-flex;
+  align-items: center;
+  width: 90%;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #e9ecef;
+}
+
+.breadcrumb a.active {
+  color: #6c757d;
+  text-decoration: none;
+  cursor: initial;
+}
+.breadcrumb a:after {
+  display: inline-block;
+  padding: 0 0.5rem;
+  color: #6c757d;
+  content: "/";
+}
+.breadcrumb a:last-child:after {
+  display: none;
+}
+
+a.active {
+  color: #1e95ff;
+  text-decoration: none;
+  cursor: initial;
+}
+
